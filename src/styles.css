@@ -71,7 +71,7 @@ body {
   width: 34px;
 }
 
-.board-row:after {
+.grid-row:after {
   clear: both;
   content: '';
   display: table;
@@ -87,4 +87,12 @@ body {
 
 .game-info {
   margin-left: 20px;
+}
+
+.game-info ol {
+  margin-bottom: 20px;
+  padding-left: 20px; 
+}
+.game-info ol li {
+  margin-bottom: 10px;
 }
